@@ -177,6 +177,22 @@ Ex)
 :: <html> 위에 관용적으로 써주어야하는  ===>  <!doctype html>
 
 --------------------
-  
-  
+
+2023-02-26
+
+< 14. HTML 태그의 제왕 >
+
+Hyper Text 가 의미하는 태그 => <a> :: link 
+
+사용 설명서를 찾을때 검색어 : 링크 : html specification
+* 링크를 거는 태그 : <a> .. </a>
+<a href="https://www.w3.org/TR/2011/WD-html5-20110405/">  ::: 이렇게 했을땐 링크를 누르면 그 창으로 바뀜
+@ 여기에서 href란? hypertext의 첫글자 + 참조의 의미인 reference의 앞 세글자
+
+@@ 새 창으로 띄우고 싶다 하면? target="_blank" 를 링크 뒤에 한칸 띄어쓰고 추가시켜줌
+@@ 링크가 클릭하기전에 무슨 링크인지 툴팁으로 알려주고싶다? title="html5 speicification"
+:: 마우스를 가져다대면 보인다. html5 speicification 이게 보임 !!
+
+--------------------
+
   
