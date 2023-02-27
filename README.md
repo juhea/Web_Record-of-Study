@@ -195,6 +195,33 @@ Hyper Text 가 의미하는 태그 => <a> :: link
 
 --------------------
 
+2023-02-27
+
+< 15. 웹 사이트 완성 >
+
+웹의 가장 큰 제목을 <body> 다음에 작성 <h1>WEB</h1>
+
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <ol>  
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
+..
+</body>
+
+--------------------
+
+Ctrl-K,F : 선택한 영역 자동 코드 정렬 
+
+
+Visual Studio Code에서 자동 줄맞춤을 하는 방법은 WIndows 기준으로
+Ctrl + A로 전체 코드 선택 후 Ctrl + K + F 을 누르면 자동으로 줄 맞춤이 된다.
+
+(Mac 단축키도 windows와 같은 command + K + F)
+
+
   
 --------------------
 
