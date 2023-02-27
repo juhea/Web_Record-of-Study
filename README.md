@@ -6,7 +6,7 @@ Developer's first steps
 
 ##### 2023-02-11
 
-# HTML에서는 TAG가 가장 중요한 핵심! 
+## HTML에서는 TAG가 가장 중요한 핵심! 
 * TAG : 설명하는 것 .. 열리는 태그, 닫히는 태그
 
 * '<strong> .. </strong>' : 글씨를 진하게 강조
