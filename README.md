@@ -221,7 +221,101 @@ Ctrl + A로 전체 코드 선택 후 Ctrl + K + F 을 누르면 자동으로 줄
 
 (Mac 단축키도 windows와 같은 command + K + F)
 
+	
+--------------------
 
+	
+2023-02-28
+
+<16. 원시웹 > primitive web
+
+웹의 고향은? 스위스
+
+info.cern.ch : 웹의 메소포타미아
+
+<img src="Web_메소포타미아.jgp">
+
+--------------------
+
+< 17. 인터넷을 여는 열쇠 : 서버와 클라이언트 >
+
+컴퓨터 - 인터넷 - 컴퓨터
+웹 브라우저(http://info.cern.ch/index.html) - 웹 서버 (http://info.cern.ch) (index.html)
+정보 요청 request - 정보 응답 response
+client - server
+ 
+# 두 가지 방법
+web hosting : 회사에 맡김
+web server : 직접 설치하고 해봄
+
+--------------------
+
+< 18. 웹호스팅 : github page >
+
+github 에서 repository 생성 후 파일 업로드 -> setting -> pages 
+-> main or master branch .. save -> Repository의 Action에서 Page build and deployment 된거 확인 후
+링크 클릭하면 웹 페이지 생성 완료 !!!!! 
+
+# 중요 !!!! github에 index.html이라는 파일이 웹 페이지로 생성 되기때문에 파일명 고정 !!!!
+
+--------------------
+
+< 19. 웹서버 운영하기 VSCode Live Server >
+
+* 비쥬얼스튜디오코드에서 확장 -> live server 설치 -> 우측 하단에 Go Live
+실시간으로 변경이 되어서 Reload 할 필요가 없음
+
+http://127.0.0.1:5500/index.html
+Hyper  Internet  Port 
+Text     Protocol
+Transfer  Address
+Protocol
+
+Web browser -> 5500 Web Server
+		6000 Game Server
+		7000 Chatting Server
+
+* 비쥬얼스튜디오코드에서 확장 -> ip address 설치 -> 우측 하단에 ip주소가 나옴
+
+**** Go Live 누른 후 핸드폰에서 주소창에 컴퓨터 ip주소:5500 입력하면
+핸드폰에도 웹 사이트가 뜬다!!! ****
+
+--------------------
+
+< 19.1.1 웹서버 운영하기 웹서버 소개>
+
+Apache 사용해보기 !
+
+검색어 추천 : how to install apache http server os
+
+--------------------
+
+< 19.1.2 웹서버 운영 윈도우 HTTP >
+
+검색어 추천 : how to easy install apache on window
+: bitnami wamp stack
+
+나중에 bitnami wamp가 꺼져 있다면
+C:Program Files:BitNami WAMPStack 에서 manager-windows.exe를 실행
+
+화면에 표시되는 index.html 찾기
+ : C:Program Files:BitNami WAMPStack:apache2:htdocs : index.html
+
+
+http://127.0.0.1/index.html
+::: Web Browser, Web Server : index.html
+
+file:///C:/Program%20Files/BitNami%20WAMPStack/apache2/htdocs/index.html
+::: Web Browser : index.html
+
+
+--------------------
+
+
+< 19.1.3 웹서버 운영 웹브라우저와 웹서버 통신 >
+
+나의 IP 주소 찾기
+: 설정 -> 상태 -> 네트워크 및 공유 센터 -> 이더넷
   
 --------------------
 
