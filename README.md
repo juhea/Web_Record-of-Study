@@ -390,15 +390,39 @@ s0.parentNode.insertBefore(s1,s0);
 
 --------------------
 
+
+##### 2023-03-05 
+
 < 부록: 코드의 힘 : 웹사이트 방문자 분석기 >
-	
-	
-	
 
 https://analytics.google.com
 
+수동으로 Google 태그 설치
+아래에 이 계정의 Google 태그가 있습니다. 태그를 복사한 후 웹사이트의 각 페이지 코드에서 <head> 요소 바로 다음에 붙여넣으세요. 
+Google 태그는 각 페이지에 하나씩만 추가합니다.
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZGPVS6TRBT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZGPVS6TRBT'); 
+</script>
+
+//  gtag안에 'G-ZGPVS6TRBT' 이 부분은 변경되는 부분
+- 보고서 - 실시간 :: 방문자 확인 가능
+
+Audience-Geo-Language :: 한국어가 압도적으로 많은 걸 볼 수있다.
+
+- 웹사이트 방문자 분석기를 활용해서 나의 인스타그램을 웹사이트로 활용해보았다!
+https://juhea.github.io/ju_nye_instagram/
 
 
+
+
+-----------------------------
 	
 참조 : Egoing Lee :: https://www.inflearn.com/course/%EC%BB%B4%ED%93%A8%ED%84%B0-%EC%9B%B9-%EC%BD%94%EB%94%A9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%9C%EC%9E%91-web-1/dashboard
 	
